@@ -3,6 +3,7 @@
 from typing import Dict, List
 
 import torch
+import torch.nn.functional as F
 
 from bigram.data import build_dataset, build_vocab, load_words, split_words
 
