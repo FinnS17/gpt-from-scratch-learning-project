@@ -1,0 +1,40 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- OS / Editor ---
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# VSCode configuration
+.vscode/
+.idea/
+
+# --- Graphviz output ---
+*.dot
+*.png
+*.svg
+*.gv
+*.gv.pdf
+*.pdf
+
+# --- Model artifacts ---
+*.pt
+*.pth
+*.ckpt
+lightning_logs/
+
+# --- Ignore entire folder "ignore" ---
+ignore/
+
+# --- Cache / logs ---
+logs/
+*.log
