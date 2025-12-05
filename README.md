@@ -16,15 +16,6 @@ What I tried to understand:
 - `data/` — toy datasets (names, small text snippets).
 
 ## Running stuff
-Needs Python 3 + PyTorch:
-```bash
-pip install torch matplotlib
-```
-Then, for example:
-```bash
-python bigram/statistical_bigram.py
-python bigram/one_hot_bigram.py
-python bigram/embedding_mlp.py
-python transformer/transformer.py
-```
-Open notebooks with Jupyter; some plots need `graphviz`.
+
+1. Install deps: `pip install -r requirements.txt`
+2. Run a demo, e.g: `python transformer/transformer.py`
